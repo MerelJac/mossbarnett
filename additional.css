@@ -6,8 +6,8 @@
 	color: #6A1B2D;
 }
 /* Remove from home and contact page */
-.home #qodef-page-content-bottom , .page-id-1405 #qodef-page-content-bottom {
-	display: none;
+.home #qodef-page-content-bottom , .page-id-1405 #qodef-page-content-bottom, .qodef-info--social-share, .qodef-e-read-more {
+	display: none !important;
 }
 
 /* Other Pages */
@@ -15,6 +15,17 @@
 	 background-color: #6A1B2D;
 }
 
+.qodef-m-title-text, .qodef-m-text {
+    font-size: 2rem !important;
+}
+
+.qodef-e-info a, .qodef-social-title, .qodef-m-nav-label, .qodef-breadcrumbs a , .qodef-breadcrumbs-link span, .qodef-breadcrumbs-current {
+	font-size: 1.25rem !important;
+}
+
+.qodef-icon-with-text.qodef-boxed-content--yes .qodef-m-wrapper {
+    padding: 12% 25% 11% 8%; !important
+}
 /* Mobile */
 .qodef-mobile-header-navigation .qodef-menu-item-text {
 	color: black;
@@ -32,8 +43,9 @@
 	display: none;
 }
 
-.qodef-menu-item-text, .qodef-m-text {
+.qodef-m-text {
 	font-size: 1.25rem;
+	line-height: 3rem;
 }
 
 .elementor-element-e52e8a0 {
