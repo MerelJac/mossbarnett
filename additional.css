@@ -5,14 +5,23 @@
 .home .qodef-menu-item-text, .qodef-header-sticky-inner .qodef-menu-item-text {
 	color: #6A1B2D;
 }
-
-.home #qodef-page-content-bottom {
+/* Remove from home and contact page */
+.home #qodef-page-content-bottom , .page-id-1405 #qodef-page-content-bottom {
 	display: none;
 }
 
 /* Other Pages */
 #qodef-page-header-inner {
 	 background-color: #6A1B2D;
+}
+
+/* Mobile */
+.qodef-mobile-header-navigation .qodef-menu-item-text {
+	color: black;
+}
+
+#qodef-page-content-bottom .qodef-m-text {
+	text-align: center;
 }
 
 .qodef-menu-item-text {
