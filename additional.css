@@ -6,6 +6,10 @@
 	color: #6A1B2D;
 }
 
+.home #qodef-page-content-bottom {
+	display: none;
+}
+
 /* Other Pages */
 #qodef-page-header-inner {
 	 background-color: #6A1B2D;
