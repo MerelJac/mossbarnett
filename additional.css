@@ -1,0 +1,28 @@
+/* Home Page */
+.home #qodef-page-header-inner {
+	 background: rgba(255, 255, 255, 0.85);
+}
+.home .qodef-menu-item-text, .qodef-header-sticky-inner .qodef-menu-item-text {
+	color: #6A1B2D;
+}
+
+/* Other Pages */
+#qodef-page-header-inner {
+	 background-color: #6A1B2D;
+}
+
+.qodef-menu-item-text {
+	color: #f7f2ea;
+}
+
+#qodef-top-area-inner, .qodef-progress-number {
+	display: none;
+}
+
+.qodef-menu-item-text, .qodef-m-text {
+	font-size: 1.25rem;
+}
+
+.elementor-element-e52e8a0 {
+	padding: 0;
+}
