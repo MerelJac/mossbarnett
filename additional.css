@@ -1,53 +1,76 @@
 /* Home Page */
 .home #qodef-page-header-inner {
-	 background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.85);
 }
-.home .qodef-menu-item-text, .qodef-header-sticky-inner .qodef-menu-item-text {
-	color: #6A1B2D;
+.home .qodef-menu-item-text,
+.qodef-header-sticky-inner .qodef-menu-item-text {
+  color: #6a1b2d;
 }
 /* Remove from home and contact page */
-.home #qodef-page-content-bottom , .page-id-1405 #qodef-page-content-bottom, .qodef-info--social-share, .qodef-e-read-more {
-	display: none !important;
+.home #qodef-page-content-bottom,
+.page-id-1405 #qodef-page-content-bottom,
+.qodef-info--social-share,
+.qodef-e-read-more {
+  display: none !important;
 }
 
 /* Other Pages */
 #qodef-page-header-inner {
-	 background-color: #6A1B2D;
+  background-color: #6a1b2d;
 }
 
-.qodef-m-title-text, .qodef-m-text {
-    font-size: 2rem !important;
+.qodef-m-title-text,
+.qodef-m-text {
+  font-size: 2rem !important;
 }
 
-.qodef-e-info a, .qodef-social-title, .qodef-m-nav-label, .qodef-breadcrumbs a , .qodef-breadcrumbs-link span, .qodef-breadcrumbs-current {
-	font-size: 1.25rem !important;
+.qodef-e-info a,
+.qodef-e-info p,
+.qodef-social-title,
+.qodef-m-nav-label,
+.qodef-breadcrumbs a,
+.qodef-breadcrumbs-link span,
+.qodef-breadcrumbs-current {
+  font-size: 1.25rem !important;
 }
 
 .qodef-icon-with-text.qodef-boxed-content--yes .qodef-m-wrapper {
-    padding: 12% 25% 11% 8%; !important
+  padding: 12% 25% 11% 8% !important;
 }
 /* Mobile */
 .qodef-mobile-header-navigation .qodef-menu-item-text {
-	color: black;
+  color: black;
 }
 
 #qodef-page-content-bottom .qodef-m-text {
-	text-align: center;
+  text-align: center;
 }
 
 .qodef-menu-item-text {
-	color: #f7f2ea;
+  color: #f7f2ea;
 }
 
-#qodef-top-area-inner, .qodef-progress-number {
-	display: none;
+#qodef-top-area-inner,
+.qodef-progress-number {
+  display: none;
 }
 
 .qodef-m-text {
-	font-size: 1.25rem;
-	line-height: 3rem;
+  line-height: 3rem;
 }
 
 .elementor-element-e52e8a0 {
-	padding: 0;
+  padding: 0;
+}
+
+@media (max-width: 767px) {
+  #block-36 {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .qodef-m-text {
+    font-size: 1.2rem !important;
+    line-height: 1.8rem;
+  }
 }

@@ -1,0 +1,90 @@
+/*
+    Theme Name:   Dictum Child
+    Theme URI:    http://example.com/dictum-child/
+    Description:  Dictum Child Theme
+    Author:       Your Name
+    Author URI:   http://example.com
+    Template:     dictum
+    Version:      1.0.0
+    Text Domain:  dictum-child
+*/
+
+/* Header */
+div#qodef-top-area {
+  display: none !important;
+}
+/* Menu Item Text For NON MAIN pages */
+.qodef-menu-item-text {
+  color: #f7f2ea !important;
+}
+
+.main header#qodef-page-header {
+  background: rgba(255, 255, 255, 0.85) !important;
+}
+
+.main #qodef-page-header-inner,
+.qodef-header-sticky-inner {
+  margin: 0 auto;
+  background-color: transparent !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.main
+  header#qodef-page-header
+  #qodef-page-header-inner.qodef-skin--light
+  nav
+  > ul
+  > li
+  > a {
+  color: #6b1b2d !important;
+}
+
+/* Home Page */
+.home #qodef-page-header-inner {
+  background: rgba(255, 255, 255, 0.85);
+}
+.home .qodef-menu-item-text,
+.qodef-header-sticky-inner .qodef-menu-item-text {
+  color: #6a1b2d !important;
+}
+/* Remove from home and contact page */
+.home #qodef-page-content-bottom,
+.page-id-1405 #qodef-page-content-bottom,
+.qodef-info--social-share,
+.qodef-e-read-more {
+  display: none !important;
+}
+
+.qodef-mobile-header-navigation .qodef-menu-item-text {
+  color: #6a1b2d !important;
+}
+
+/* Other Pages */
+#qodef-page-header-inner {
+  background-color: #6a1b2d;
+}
+
+.qodef-m-title-text,
+.qodef-m-text {
+  font-size: 1.75rem !important;
+  line-height: 2.2;
+}
+
+@media (max-width: 767px) {
+  .qodef-m-text {
+    font-size: 1.2rem !important;
+    line-height: 1.8rem;
+  }
+
+  .wp-block-heading,
+  #block-38 {
+    text-align: center !important;
+  }
+
+  #block-36 , #block-36 h2 {
+    margin: 0 !important;
+
+  }
+
+}
