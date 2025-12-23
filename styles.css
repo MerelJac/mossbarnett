@@ -71,6 +71,22 @@ div#qodef-top-area {
   line-height: 2.2;
 }
 
+.qodef-e-info a,
+.qodef-e-info p,
+.qodef-e-text p,
+.qodef-social-title,
+.qodef-m-nav-label,
+.qodef-breadcrumbs a,
+.qodef-breadcrumbs-link span,
+.qodef-breadcrumbs-current {
+  font-size: 1.25rem !important;
+  line-height: 1.25;
+}
+
+.qodef-icon-with-text.qodef-boxed-content--yes .qodef-m-wrapper {
+  padding: 12% 25% 11% 8% !important;
+}
+
 @media (max-width: 767px) {
   .qodef-m-text {
     font-size: 1.2rem !important;
@@ -82,9 +98,12 @@ div#qodef-top-area {
     text-align: center !important;
   }
 
-  #block-36 , #block-36 h2 {
+  #block-36,
+  #block-36 h2 {
     margin: 0 !important;
-
   }
 
+  #block-36 {
+    padding-bottom: 10px !important;
+  }
 }
