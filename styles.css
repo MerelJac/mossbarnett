@@ -22,6 +22,12 @@ div#qodef-top-area {
   background: rgba(255, 255, 255, 0.85) !important;
 }
 
+#footer-copy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 50%;
+}
 .main #qodef-page-header-inner,
 .qodef-header-sticky-inner {
   margin: 0 auto;
@@ -83,10 +89,46 @@ div#qodef-top-area {
   line-height: 1.25;
 }
 
+#block-36 h2 a {
+  color: #f7f2ea !important;
+}
+
 .qodef-icon-with-text.qodef-boxed-content--yes .qodef-m-wrapper {
   padding: 12% 25% 11% 8% !important;
 }
 
+.elementor-element-9178e81 {
+  align-items: start !important;
+}
+/* 
+.e-child {
+  display: flex  !important;
+  min-height: min-content  !important;
+}
+
+.e-parent {
+  align-items: stretch  !important;
+}
+.qodef-m-wrapper {
+  display: flex  !important;
+  flex-direction: column  !important;
+  height: 100%  !important;
+}
+
+.qodef-m-content {
+  flex-grow: 1 !important;
+} */
+
+/* Footer */
+
+.qodef-breadcrumbs {
+  display: none !important;
+}
+@media (max-width: 1500px) {
+  #qodef-page-footer-copyright-area-inner h4 {
+    font-size: 1.2rem !important;
+  }
+}
 @media (max-width: 767px) {
   .qodef-m-text {
     font-size: 1.2rem !important;
