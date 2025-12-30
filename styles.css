@@ -73,7 +73,7 @@ div#qodef-top-area {
 
 .qodef-m-title-text,
 .qodef-m-text {
-  font-size: 1.75rem !important;
+  font-size: 1.5rem !important;
   line-height: 2.2;
 }
 
@@ -90,15 +90,27 @@ div#qodef-top-area {
 }
 
 #block-36 h2 a {
-  color: #f7f2ea !important;
+  color: black !important;
+  background-color: #f7f2ea !important;
+  padding: 10px 15px !important;
+  border-radius: 10px !important;
 }
 
+#block-36 h2 a:hover {
+  color: #f7f2ea !important;
+  background-color: #6D6E71 !important;
+  border-radius: 10px !important;
+}
 .qodef-icon-with-text.qodef-boxed-content--yes .qodef-m-wrapper {
   padding: 12% 25% 11% 8% !important;
 }
 
 .elementor-element-9178e81 {
   align-items: start !important;
+}
+
+#qodef-page-content-bottom .qodef-grid-inner {
+  justify-content: center !important;
 }
 /* 
 .e-child {
@@ -126,13 +138,13 @@ div#qodef-top-area {
 }
 @media (max-width: 1500px) {
   #qodef-page-footer-copyright-area-inner h4 {
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
   }
 }
 @media (max-width: 767px) {
   .qodef-m-text {
-    font-size: 1.2rem !important;
-    line-height: 1.8rem;
+    font-size: 1.1rem !important;
+    line-height: 2rem;
   }
 
   .wp-block-heading,
