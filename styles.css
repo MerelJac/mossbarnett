@@ -109,9 +109,29 @@ div#qodef-top-area {
   align-items: start !important;
 }
 
-#qodef-page-content-bottom .qodef-grid-inner {
-  justify-content: center !important;
+#qodef-page-footer-bottom-area-inner .qodef-grid .qodef-grid-item {
+   display: flex !important;
+  align-items: flex-end !important;
 }
+
+.remove-bottom-margin {
+  margin-bottom: 0 !important;
+}
+
+#qodef-page-mobile-header .qodef-mobile-header-opener, #qodef-page-mobile-header .qodef-fullscreen-menu-opener {
+  color: #6a1b2d !important;
+}
+/* #block-54 {
+  display: flex !important;
+}
+
+#format-footer-loop {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  height: 100% !important;
+} */
+
 /* 
 .e-child {
   display: flex  !important;
